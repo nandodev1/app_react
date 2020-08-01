@@ -8,6 +8,7 @@ import { DISHES } from '../shared/dishes'
 class Main extends Component {
 
   constructor(props){
+    console.log('Main component constructor invoked.')
     super(props);
     this.state = {
       dishes: DISHES,

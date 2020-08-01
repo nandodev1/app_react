@@ -4,6 +4,7 @@ import Main from './components/MainComponent';
 class App extends Component {
 
   render(){
+    console.log('App component render invoder.');
     return (
       <div className="App">
           <Main/>

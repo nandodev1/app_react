@@ -8,7 +8,7 @@ class Contact extends Component {
         super(props);
 
         this.state = {
-            fistname: "",
+            firstname: "",
             lastname: "",
             telnum: "",
             email: "",
@@ -17,8 +17,8 @@ class Contact extends Component {
             message: ''
         };
 
-        this.handleSubmit = this.handleSubmit.bind();
-        this.handleInputChange = this.handleInputChange.bind();
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleInputChange = this.handleInputChange.bind(this);
     }
 
     handleInputChange(event){

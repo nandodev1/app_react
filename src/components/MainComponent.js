@@ -17,7 +17,6 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 class Main extends Component {
 
   constructor(props){
-    console.log('Main component constructor invoked.')
     super(props);
     this.state = {
       dishes: DISHES,
